@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    height: 50px;
+    background-color: #333;
+  }
+  
+  .all {
+    display: flex;
+  }
+  
+  .menu {
+    width: 200px; 
+    background-color: #555;
+  }
+  
+  .thongtin {
+    flex-grow: 1; 
+    padding: 20px;
+  }
+  
+  .home-sidebar {
+    padding: 20px;
+  }
+  
+  .home-sidebar h3 {
+    margin-bottom: 10px;
+  }
+  
+  .home-bar-item {
+    display: block;
+    margin-bottom: 20px ;
+    text-decoration: none;
+    color: rgb(191, 192, 194);
+    padding: 5px;
+    background-color: #555;
+  }
+  
+  .home-bar-item:hover {
+    background-color: #1d1b1b;
+    color: white;
+  }
+  
+  .dangnhap {
+    background-color: #daf5dc;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .chitiet {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .phantu{
+    position: relative;
+    width: 10000px;
+  }
+  .lol1  {
+    flex: 0 0 calc(50% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 100px;
+    width: 200px;
+    
+  }
+  .lol2  {
+    flex: 0 0 calc(50% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 330px;
+    width: 200px;
+  }
+  .lol3  {
+    flex: 0 0 calc(50% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 560px;
+    width: 200px;
+   
+  }
+  .lol4  {
+    flex: 0 0 calc(50% - 20px); 
+    margin: 10px;
+    padding: 18.62px;
+    color: white;
+    border-radius: 5px;
+    position:absolute;
+    left: 790px;
+    width: 200px;
+    height: 114px;
+    
+  }
+  .lol5  {
+    flex: 0 0 calc(50% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    width: 200px;
+   
+  }
+  .lol6  {
+    flex: 0 0 calc(50% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 140px;
+    left: 330px;
+    width: 200px;
+  }
+  .lol7  {
+    flex: 0 0 calc(50% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 140px;
+    left: 560px;
+    width: 200px;
+   
+  }
+  .lol8  {
+    flex: 0 0 calc(50% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 140px;
+    left: 790px;
+    width: 200px;
+  }
+  
+  .tren {
+    text-align: center;
+  }
+  
+  .xem {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .xem:hover {
+    background-color: #555;
+  }
+  .header{
+    position: relative;
+  }
+  .thongtin{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    
+  }
